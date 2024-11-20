@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space between logo and nav-links */
+  align-items: center;
+  padding: 15px 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation Links Styling */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; /* Space between nav items */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none; /* Removes underline */
+  color: white; /* Ensures text color stands out */
+}
+
+.nav-links a:hover {
+  color: #f0a500; 
+}
+
+
+.nav-links {
+  margin-left: auto; 
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logo-details {
+  font-size: 2rem;
+  font-style: italic;
+  margin-left: 5px;
+  color: #f0a500;
+}
